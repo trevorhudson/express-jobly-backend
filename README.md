@@ -1,8 +1,8 @@
-# Jobly Frontend
+# Jobly - Backend
 
 Jobly is a full featured job board with authentication. Users can browse and apply to active job listings on a standalone page and use the search filter to find a job. A company list page displays all companies in the DB, and each companies page features a list of all posted jobs.
 
-([Live demo](https://jobly.demo.trevorhudson.dev))
+### [Live demo](https://jobly.demo.trevorhudson.dev)
 
 # Table of Contents
 1. [Features](#Features)
@@ -19,10 +19,9 @@ Jobly is a full featured job board with authentication. Users can browse and app
 * Token stored on localStorage so that a user is not automatically logged out upon page refresh.
 * Alerts are displayed to the user when signing up for an account and editing the user profile if minimum requirements are not met.
 
-
 ## Tech stack<a name="Tech-stack"></a>:
 
-### Backend ([GitHub Repo](https://github.com/amathew195/express-jobly)):
+### Backend ([GitHub Repo](https://github.com/trevorhudson/react-jobly-backend)):
 ![alt text](https://img.shields.io/badge/-Express-000000?logo=express&logoColor=white&style=for-the-badge)
 ![alt text](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=for-the-badge)
 
@@ -45,7 +44,8 @@ To start the sever (port 3000):
 ## Deployment<a name="Deployment"></a>:
 
 ### Frontend Deployment:
-We used Surge to deploy our front end.
+
+The static front end can be easily deployed via surge.
 
 First make sure Surge is installed:
 
