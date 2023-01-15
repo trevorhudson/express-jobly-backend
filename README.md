@@ -25,7 +25,7 @@ Jobly is a full featured job board with authentication. Users can browse and app
 ![alt text](https://img.shields.io/badge/-Express-000000?logo=express&logoColor=white&style=for-the-badge)
 ![alt text](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=for-the-badge)
 
-### Frontend:
+### Frontend ([GitHub Repo](https://github.com/trevorhudson/react-jobly-frontend)):
 ![alt text](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge)
 
 ### Database Management:
@@ -47,15 +47,15 @@ To start the sever (port 3000):
 
 The static front end can be easily deployed via surge.
 
-First make sure Surge is installed:
+To install Surge:
 
     npm install -g surge
 
-Next, let’s make sure we define the environment variable for our frontend app.
+To build react app with environmental variables:
 
     REACT_APP_BASE_URL=YOUR_RENDER_BACKEND_URL npm run build
 
-Now build your frontend.
+Now deploy and build your frontend.
 
     cp build/index.html build/200.html
     surge build
